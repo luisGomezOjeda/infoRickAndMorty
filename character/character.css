@@ -1,0 +1,104 @@
+main {
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
+}
+
+.section-character {
+    display: flex;
+    width: 55vw;
+    min-width: 400px;
+    height: 30vw;
+    min-height: 200px;
+    border-radius: 20px;
+    background-color: var(--card);
+
+    @media (max-width: 539px) {
+        flex-direction: column;
+        min-width: 200px;
+        height: 500px;
+        border-radius: 20px;
+    }
+}
+
+.section-character img{
+    width: 45%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+
+    @media (max-width: 539px) {
+        width: 100%;
+        height: 50%;
+        border-radius: 20px 20px 0 0 ;
+    }
+}
+.section-character article{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+    @media (max-width: 539px) {
+        align-items: center;
+        padding-top:30px ;
+    }
+}
+
+.section-character article h1 {
+    color: var(--color);
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+    @media (max-width: 539px) {
+        text-align: center;
+    }
+}
+.section-character article p {
+    color: var(--color-secondary);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    @media (max-width: 539px) {
+        text-align: center;
+        line-height: 2rem;
+    }
+    }
+    .section-character article p b {
+        font-weight: 600;
+    }
+
+
+    .section-character article p.status  {
+        display: flex;
+        align-items: center;
+        @media (max-width: 539px) {
+            justify-content: center;
+        }
+    }
+    .section-character article img {
+        width: 12px;
+        object-fit: contain;
+        margin:0 5px;
+    }
+
+    #button-prev {
+        position: absolute;
+        left: 0;
+        background: transparent;
+        width: 100px;
+        height: 50px;
+        display: none;
+    }
+    #button-prev.active{
+        display: block;
+    }
+
+    #button-prev img {
+        width: 100%;
+        height: 100%;
+        transform: rotate(180deg);
+        object-fit: contain;
+
+    }

@@ -1,0 +1,117 @@
+.section-listInfo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px 0;
+    max-width: var(--desktop);
+    padding-bottom: 20px ;
+}
+.section-listInfo .card-placeholder{
+    background-color: #95a0cb52;
+    animation : animationLoader 1.5s ease-in-out 0s infinite ;
+}
+
+.section-listInfo figure {
+    width: 370px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 0 10px;
+    
+    @media (max-width: 539px) {
+        width: 250px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.section-listInfo figure img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px 0 0 15px;
+    @media (max-width: 539px) {
+        border-radius: 15px 15px 0 0 ;
+        width: 100%;
+        height: 50%;
+    }
+}
+
+.section-listInfo .card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--card);
+    padding-right: 10px;
+
+    @media (max-width: 539px) {
+        padding: 0;
+    }
+}
+.section-listInfo .card-info{
+    padding-left: 15px;
+    color: var(--color);
+    @media (max-width: 539px) {
+        padding-top: 30px;
+        text-align: center;
+    }
+}
+.section-listInfo .card-info h4 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    padding-bottom: 10px;
+}
+.section-listInfo .card-info p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: var(--color-secondary);
+}
+
+.section-listInfo .card-info .status  {
+    display: flex;
+    align-items: center;
+    @media (max-width: 539px) {
+        justify-content: center;
+    }
+}
+.section-listInfo .card-info .status img {
+    width: 12px;
+    margin:0 5px;
+}
+
+.section-listInfo .card-info a {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--green);
+    line-height: 5rem;
+}
+
+
+
+@keyframes animationLoader {
+    50% {
+        background-color: #777d9252;
+    }
+}
+
+.move-pages {
+    order: 9999;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
+.move-pages a {
+    color :var(--green)
+}
+
+.move-pages b{
+    color: var(--color);
+    margin: 0 10px;
+} 

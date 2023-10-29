@@ -1,0 +1,71 @@
+.section-serch {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    position: relative;
+    width: 370px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 0 10px;
+
+    height: 30px;
+    display: flex;
+    
+    @media (max-width: 539px) {
+        width: 250px;
+    }
+}
+
+form input[type="text"] {
+    all: unset; 
+    width: 85%;
+    height: 100%;
+    margin: 0;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--card);
+    color: var(--color);
+    padding: 0 10px;
+    font-size: 1.6rem;
+}
+form input:focus{
+    border: none;
+}
+
+form input[type="submit"] {
+    width: 15%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0 10px 10px 0;
+    background-color: var(--card);
+    background-image: url("../public/images/serch.png");
+    color: var(--color);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.error-message {
+    visibility: hidden;
+    position: absolute;
+    border-radius: 10px ;
+    top: 100%;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: var(--color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.error-message.error {
+    visibility: visible;
+    background-color: red;
+}
+
