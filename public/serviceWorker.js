@@ -7,7 +7,7 @@ const CACHE_NAME = 'v1_infoRickAndMorty',
     "https://fonts.gstatic.com",
     "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400;1,700&display=swap",
     './dist/assets/index-1f3638cd.css',
-    './dist/index.html",
+    "./dist/index.html",
     "./dist/assets/index-ad5e5e19.js"
 
   ]
