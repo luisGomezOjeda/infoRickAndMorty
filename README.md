@@ -11,19 +11,6 @@ La página de inicio es la página principal de infoRickAndMorty y proporciona u
 ### Página de Personaje (character.html)
 La página de personaje se utiliza para mostrar información detallada sobre un personaje específico. Los usuarios pueden acceder a esta página haciendo clic en el enlace "ver más" en la tarjeta de información del personaje en la página de inicio. Aquí, pueden encontrar información adicional sobre el personaje, incluyendo su imagen, estado, especie, género, origen, ubicación y una lista de episodios en los que aparece.
 
-## Recursos
-- La página utiliza una hoja de estilo CSS para dar formato y diseño a las páginas.
-- Se carga un archivo JavaScript para mejorar la interacción del usuario y proporcionar funcionalidad adicional.
-- También se utilizan fuentes de Google Fonts para la tipografía.
-- Hay un ícono de favicon personalizado y un ícono de la página de GitHub.
-
-## Cómo Usar
-1. Para buscar un personaje, vaya a la página de inicio (index.html).
-2. Ingrese el nombre del personaje que desea buscar en el campo de búsqueda y haga clic en el botón de búsqueda.
-3. Verá una lista de tarjetas de información de personajes que coinciden con su búsqueda.
-4. Haga clic en el enlace "ver más" en una tarjeta para obtener información detallada sobre un personaje específico en la página de personaje (character.html).
-5. En la página de personaje, puede explorar información adicional sobre el personaje.
-
 ## Autor
 Esta página web fue creada por [Luis Gomez Ojeda](https://github.com/luisGomezOjeda).
 
