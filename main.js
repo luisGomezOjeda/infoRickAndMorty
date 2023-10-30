@@ -4,12 +4,10 @@ import "./sectionSerch/sectionSerch.css"
 import { serchCharacter } from "./sectionSerch/sectionSerch"
 
 import "./character/character.css"
-import "./character/character"
 import deplyCharacter from "./character/character"
 
-
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register("./public/serviceWorker.js")
+    navigator.serviceWorker.register(`./public/serviceWorker.js`)
       .then(reg => console.log('Registro de SW exitoso', reg))
       .catch(err => console.warn('Error al tratar de registrar el sw', err))
   }

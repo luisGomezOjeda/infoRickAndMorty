@@ -1,18 +1,19 @@
 {
-    "name": "#infoRickAndMorty",
-    "short_name": "#infoRickAndMorty",
-    "description": "info rinck and morty",
-    "background_color": "rgb(39, 43, 51)",
-    "theme_color": "#3C3E44",
-    "orientation": "portrait",
-    "display": "standalone",
-    "start_url": "./?utm_source=web_app_manifest",
-    "scope": "./",
-    "lang": "es-MX",
-    "icons": [
-      {
-        "src": "./public/images/logo.png",
-        "type": "image/png"
-      }
-    ]
-  }
+  "name": "#infoRickAndMorty",
+  "short_name": "#infoRickAndMorty",
+  "description": "info rinck and morty",
+  "background_color": "rgb(39, 43, 51)",
+  "theme_color": "#3C3E44",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "./public/images/logo.png",
+      "type": "image/png",
+      "size" : "32x32"
+    }
+  ]
+}

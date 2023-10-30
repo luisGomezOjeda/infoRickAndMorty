@@ -4,7 +4,6 @@ import imgUnknown  from "../public/images/unknown.png"
 
 const helpDeployCard = (characters) => {
 
-  const BASE_URL = import.meta.env.BASE_URL;
   const $mainContent = document.querySelector(".section-listInfo"),
   fragment = document.createDocumentFragment(),
   $templateCard = document.querySelector(".template-cardInfo");
@@ -17,7 +16,7 @@ const helpDeployCard = (characters) => {
         cloneCard.querySelector(".status b").textContent = `${character.status}`
         cloneCard.querySelector(".gender").textContent = `Gender : ${character.gender}`
         cloneCard.querySelector(".origin").textContent = `Origin : ${character.origin.name}`
-        cloneCard.querySelector(".link-character").href = `${BASE_URL}character.html?id=${character.id}`
+        cloneCard.querySelector(".link-character").href = `/infoRickAndMorty/character.html?id=${character.id}`
 
         cloneCard.querySelector(".link-character").addEventListener
         ("click",(e) => localStorage.setItem("char",JSON.stringify(character)))
