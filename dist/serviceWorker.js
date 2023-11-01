@@ -1,15 +1,7 @@
 ;
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'v1_infoRickAndMorty',
-  urlsToCache = [
-    './images/index-1f3638cd.css',
-    "./images/dead.png",
-    "./images/error.png",
-    "./images/unknown.png.png",
-    "./images/placeholder.png",
-    "./images/logo.png",
-    "./images/serch.png"
-  ]
+  urlsToCache = []
 
   //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
 self.addEventListener('install', e => {
