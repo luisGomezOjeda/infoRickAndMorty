@@ -1,0 +1,39 @@
+{
+  "name": "#infoRickAndMorty",
+  "short_name": "#infoRickAndMorty",
+  "description": "info rinck and morty",
+  "background_color": "rgb(39, 43, 51)",
+  "theme_color": "#3C3E44",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "./images/icons8-rick-sanchez-480.png",
+      "sizes": "480x480",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/icons8-rick-sanchez-240.png",
+      "sizes": "240x240",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/icons8-rick-sanchez-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/icons8-rick-sanchez-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/icons8-rick-sanchez-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ]
+}
