@@ -15,3 +15,4 @@ La página de personaje se utiliza para mostrar información detallada sobre un 
 Esta página web fue creada por [Luis Gomez Ojeda](https://github.com/luisGomezOjeda).
 
  [infoRickAndMorty](https://luisgomezojeda.github.io/infoRickAndMorty/).
+# infoRickAndMorty
